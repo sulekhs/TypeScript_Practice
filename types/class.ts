@@ -24,11 +24,11 @@ interface IPerson {
     display():void;
 }
 
-interface IEmployee {
+interface IEmploy {
     empCode: number;
 }
 
-class Emp implements IPerson, IEmployee {
+class Emp implements IPerson, IEmploy {
     empCode: number;
     name: string;
     
